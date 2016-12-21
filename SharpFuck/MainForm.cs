@@ -13,14 +13,14 @@ using System.Windows.Forms;
 
 namespace SharpFuck
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         BrainfuckInterpreter bf;
         Thread bfThread;
         string bfText;
         delegate void LogDelegate(string msg);
 
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
 
