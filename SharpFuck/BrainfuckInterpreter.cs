@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SharpFuck
 {
@@ -20,7 +17,7 @@ namespace SharpFuck
         public BrainfuckInterpreter()
         {
             m_loops = new Stack<int>();
-            m_data = new byte[30000];
+            m_data = new byte[60000];
             m_output = new List<char>();
         }
 
